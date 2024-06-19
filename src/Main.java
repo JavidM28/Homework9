@@ -33,7 +33,7 @@ public class Main {
         System.out.printf("Средняя сумма трат за месяц составила %.2f рублей \n", averageExpenses);
 
         //TASK 4
-        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         int leftIndex = 0;
         int rightIndex = reverseFullName.length - 1;
         while (leftIndex < rightIndex) {
