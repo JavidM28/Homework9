@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         //TASK 1
         double[] salary = {72240, 65550, 88408, 92065, 72180};
         double sumOfSalaries = 0;
@@ -34,15 +35,9 @@ public class Main {
 
         //TASK 4
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        int leftIndex = 0;
-        int rightIndex = reverseFullName.length - 1;
-        while (leftIndex < rightIndex) {
-            char temp = reverseFullName[leftIndex];
-            reverseFullName[leftIndex] = reverseFullName[rightIndex];
-            reverseFullName[rightIndex] = temp;
-            leftIndex++;
-            rightIndex--;
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
         }
-        System.out.println(reverseFullName);
+        System.out.println();
     }
 }
